@@ -1,0 +1,302 @@
+{
+  "subscriptions": {
+    "P-REEMA-01": {
+      "user_id": "P-REEMA-01",
+      "plan_code": "DISHA_CARE_MONTHLY",
+      "plan_name": "Disha Care Monthly Membership",
+      "price_inr": 299,
+      "billing_cycle": "Monthly",
+      "renewal_date": "2026-11-01",
+      "status": "active",
+      "features": [
+        "Proactive weekly follow-up voice calls with Disha AI coach",
+        "Personalized diet, sleep, and lifestyle tracking in Hinglish",
+        "Unlimited in-app chat assistance",
+        "Dedicated health coach (Dr. Ananya Sharma team)"
+      ]
+    },
+    "P-SUNITA-02": {
+      "user_id": "P-SUNITA-02",
+      "plan_code": "WEIGHT_LOSS_6M",
+      "plan_name": "Disha Weight Loss & Diabetes 6-Month Program",
+      "price_inr": 299,
+      "billing_cycle": "Monthly",
+      "renewal_date": "2027-03-01",
+      "status": "active",
+      "features": [
+        "6-month structured diabetic-friendly weight loss program",
+        "Monthly nutritionist review",
+        "Proactive weekly follow-up voice calls with Disha AI coach",
+        "In-app diet and glucose tracking"
+      ]
+    },
+    "P-ARJUN-03": {
+      "user_id": "P-ARJUN-03",
+      "plan_code": "DISHA_CARE_MONTHLY",
+      "plan_name": "Disha Care Monthly Membership",
+      "price_inr": 299,
+      "billing_cycle": "Monthly",
+      "renewal_date": "2026-11-10",
+      "status": "active",
+      "features": [
+        "Proactive weekly follow-up voice calls with Disha AI coach",
+        "Personalized diet, sleep, and lifestyle tracking in Hinglish",
+        "Unlimited in-app chat assistance"
+      ]
+    }
+  },
+
+  "patients": {
+    "P-REEMA-01": {
+      "patient_id": "P-REEMA-01",
+      "name": "Reema",
+      "age": 27,
+      "gender": "Female",
+      "language": "Hindi / Hinglish",
+      "socio_cultural_context": "Currently at parents' home, returning to city next week; has one child",
+      "fitness_goals": "Weight Loss - at least 10 kg; no specific timeline stated",
+      "medical_profile": {
+        "conditions": [
+          "Period irregularities (cycle varies up to 8 days)",
+          "Severe menstrual pain & body heaviness",
+          "Erratic sleep due to night shifts (sleep at 3-4 AM)",
+          "Chronic lower back pain",
+          "Leg swelling worse at night",
+          "Intermittent chest pain and left-hand numbness (every 2-3 days)"
+        ],
+        "active_red_flags": [
+          "Intermittent chest pain and left-hand numbness (urgent medical evaluation advised)"
+        ],
+        "allergies": [],
+        "hba1c": null,
+        "blood_pressure": "normal"
+      },
+      "prescribed_interventions": {
+        "diet": "Warm ginger-turmeric drink daily; 7-day night-shift meal plan; daily meal photo sharing in chat",
+        "fitness": "Structured home-based routine with wall/chair/table; gym workouts also permitted per coach notes",
+        "lifestyle": "Fixed sleep block (8 AM - 3 PM with blackout curtains); Kegel exercises (10 reps, 3x daily)",
+        "pending_actions": ["Home blood sample collection for thyroid, iron, vitamin D pending"]
+      },
+      "fitness_routine": {
+        "primary_mode": "Home-based 25-minute modules",
+        "gym_allowed": true,
+        "coach_note": "Patient prefers home routine currently but plan explicitly supports gym transition if user has access."
+      },
+      "diet_preferences": {
+        "type": "Flexitarian / typical North Indian home food",
+        "allergies": [],
+        "cautions": "Bloating during luteal phase / pre-period"
+      },
+      "active_diet_chart_id": "DC-REEMA-2026-W3",
+      "active_plan_code": "DISHA_CARE_MONTHLY"
+    },
+    "P-SUNITA-02": {
+      "patient_id": "P-SUNITA-02",
+      "name": "Sunita",
+      "age": 42,
+      "gender": "Female",
+      "language": "Hindi / Hinglish",
+      "socio_cultural_context": "Working professional in Delhi; living with family",
+      "fitness_goals": "Lose 12 kg, control blood sugar",
+      "medical_profile": {
+        "conditions": [
+          "Type 2 Diabetes (HbA1c 9.4 - uncontrolled)",
+          "Mild hypertension",
+          "Fatty liver grade 1"
+        ],
+        "active_red_flags": [],
+        "allergies": ["Lactose intolerant"],
+        "hba1c": 9.4,
+        "blood_pressure": "mild_hypertension"
+      },
+      "prescribed_interventions": {
+        "diet": "Low glycemic index, zero added refined sugars, no high-glycemic fruits like mango/chikoo without doctor consent",
+        "fitness": "45-minute brisk walking daily",
+        "lifestyle": "Stress management, sleep hygiene"
+      },
+      "fitness_routine": {
+        "primary_mode": "Brisk walking & light resistance",
+        "gym_allowed": true
+      },
+      "diet_preferences": {
+        "type": "Vegetarian",
+        "allergies": ["Milk / Lactose"],
+        "cautions": "Strictly restrict high GI fruits (mangoes, bananas, grapes) due to HbA1c 9.4"
+      },
+      "active_diet_chart_id": "DC-SUNITA-2026-W1",
+      "active_plan_code": "WEIGHT_LOSS_6M"
+    },
+    "P-ARJUN-03": {
+      "patient_id": "P-ARJUN-03",
+      "name": "Arjun",
+      "age": 34,
+      "gender": "Male",
+      "language": "Hindi / Hinglish",
+      "socio_cultural_context": "Software engineer, works from home, sedentary lifestyle, high stress",
+      "fitness_goals": "Build muscle, reduce belly fat, improve stamina",
+      "medical_profile": {
+        "conditions": [
+          "Mild obesity (BMI 29.1)",
+          "Borderline cholesterol"
+        ],
+        "active_red_flags": [],
+        "allergies": [],
+        "hba1c": 5.4,
+        "blood_pressure": "normal"
+      },
+      "prescribed_interventions": {
+        "diet": "High protein (1.2g/kg), moderate complex carbs, avoid refined sugar",
+        "fitness": "5-day gym program: 3 days strength + 2 days cardio",
+        "lifestyle": "No screens after 10PM; 7-8 hours sleep target"
+      },
+      "fitness_routine": {
+        "primary_mode": "Gym-based strength training",
+        "gym_allowed": true,
+        "coach_note": "Can start with compound movements. Prioritize sleep before adding volume."
+      },
+      "diet_preferences": {
+        "type": "Non-vegetarian",
+        "allergies": [],
+        "cautions": "Keep sodium moderate due to borderline cholesterol"
+      },
+      "active_diet_chart_id": "DC-ARJUN-2026-W1",
+      "active_plan_code": "DISHA_CARE_MONTHLY"
+    }
+  },
+
+  "diet_charts": {
+    "DC-REEMA-2026-W3": {
+      "week_number": 3,
+      "patient_id": "P-REEMA-01",
+      "current_focus": "PCOS hormone balancing & night shift energy sustainment",
+      "days": {
+        "today": {
+          "wake_up_drink": "Warm jeera-ajwain water (1 glass) at 3:30 PM post-sleep",
+          "breakfast": "2 moong dal chillas with mint chutney + 1 cup herbal tea (caffeine-free)",
+          "lunch": "1 katori brown rice + 1 bowl yellow dal tadka + cucumber-tomato salad with flaxseeds",
+          "evening_snack": "1 handful roasted chana + tender coconut water",
+          "dinner": "2 oats-ragi rotis + 1 katori palak paneer (low oil) + warm clear vegetable soup",
+          "night_shift_fuel": "Handful of soaked almonds and walnuts + warm turmeric water around 2:00 AM"
+        },
+        "tomorrow": {
+          "wake_up_drink": "Warm methi-ajwain water (1 glass)",
+          "breakfast": "2 besan chillas with green chutney + 1 glass warm water with lemon",
+          "lunch": "1 cup quinoa khichdi with mixed vegetables + 1 bowl raita (low fat)",
+          "evening_snack": "1 banana + 5 soaked almonds",
+          "dinner": "2 multigrain rotis + 1 bowl lauki sabzi + clear soup",
+          "night_shift_fuel": "Roasted makhana (small bowl) + chamomile tea"
+        }
+      }
+    },
+    "DC-SUNITA-2026-W1": {
+      "week_number": 1,
+      "patient_id": "P-SUNITA-02",
+      "current_focus": "Diabetic sugar control & insulin sensitivity",
+      "days": {
+        "today": {
+          "wake_up_drink": "Methi seed soaked water (1 glass) — must soak overnight",
+          "breakfast": "Besan vegetable chilla with curd (lactose-free) — NO milk-based items",
+          "lunch": "2 multigrain rotis + 1 big bowl methi sabzi + green salad with lemon",
+          "evening_snack": "Roasted makhana (small bowl, no butter) + green tea",
+          "dinner": "1 bowl quinoa khichdi with mixed vegetables + sautéed tofu (NOT paneer, lactose intolerant)",
+          "note": "STRICTLY avoid: mango, banana, grapes, white rice, maida, sweet curd"
+        },
+        "tomorrow": {
+          "wake_up_drink": "Cinnamon water (boiled 1 tsp cinnamon in 2 cups water, strain and drink warm)",
+          "breakfast": "Oats upma with vegetables (skip milk) + 1 boiled egg (optional)",
+          "lunch": "Brown rice (half cup) + rajma curry (no sugar) + cucumber raita (lactose-free curd)",
+          "evening_snack": "1 green apple + 10 unsalted peanuts",
+          "dinner": "2 jowar rotis + mixed vegetable sabzi + clear dal soup",
+          "note": "Walk 20 minutes after each main meal"
+        }
+      }
+    },
+    "DC-ARJUN-2026-W1": {
+      "week_number": 1,
+      "patient_id": "P-ARJUN-03",
+      "current_focus": "Muscle building + fat loss (body recomposition)",
+      "days": {
+        "today": {
+          "wake_up_drink": "1 glass water with soaked chia seeds + lemon",
+          "pre_workout": "1 banana + black coffee (no sugar)",
+          "breakfast": "4 egg whites + 1 whole egg omelette + 2 multigrain toasts + 1 glass milk",
+          "lunch": "2 chicken rotis or 150g grilled chicken + brown rice (half cup) + salad",
+          "evening_snack": "Whey protein shake (post-workout if gym day) OR roasted chana",
+          "dinner": "2 multigrain rotis + 150g paneer bhurji + 1 bowl dal + salad",
+          "note": "Gym today: Chest + Triceps. Drink 3+ litres water."
+        },
+        "tomorrow": {
+          "wake_up_drink": "1 glass warm lemon water",
+          "pre_workout": "1 apple + 10 almonds (rest day, no heavy pre-workout)",
+          "breakfast": "Oats with milk + 2 boiled eggs + 1 banana",
+          "lunch": "Brown rice + fish curry (or dal makhani if vegetarian day) + salad",
+          "evening_snack": "1 cup Greek yogurt + mixed seeds",
+          "dinner": "2 rotis + mixed vegetable + grilled paneer",
+          "note": "Rest day tomorrow. Light stretching 20 min."
+        }
+      }
+    }
+  },
+
+  "test_orders": {
+    "P-REEMA-01": [
+      {
+        "order_id": "TEST-REEMA-001",
+        "test_type": "Thyroid Panel (TSH, T3, T4)",
+        "status": "pending_collection",
+        "ordered_date": "2026-10-10",
+        "expected_result_date": "After home collection confirmed",
+        "lab": "Dr. Lal PathLabs (home collection requested)",
+        "notes": "Patient postponed. Remind gently."
+      },
+      {
+        "order_id": "TEST-REEMA-002",
+        "test_type": "Iron + Ferritin",
+        "status": "pending_collection",
+        "ordered_date": "2026-10-10",
+        "expected_result_date": "After home collection confirmed",
+        "lab": "Dr. Lal PathLabs (home collection requested)"
+      },
+      {
+        "order_id": "TEST-REEMA-003",
+        "test_type": "Vitamin D",
+        "status": "pending_collection",
+        "ordered_date": "2026-10-10",
+        "expected_result_date": "After home collection confirmed",
+        "lab": "Dr. Lal PathLabs (home collection requested)"
+      }
+    ],
+    "P-SUNITA-02": [
+      {
+        "order_id": "TEST-SUNITA-001",
+        "test_type": "HbA1c",
+        "status": "result_available",
+        "ordered_date": "2026-09-28",
+        "result_date": "2026-10-03",
+        "result": "9.4 (High — uncontrolled diabetes)",
+        "lab": "Metropolis Healthcare",
+        "notes": "Reviewed with doctor. Diet and walking protocol started."
+      },
+      {
+        "order_id": "TEST-SUNITA-002",
+        "test_type": "Lipid Profile",
+        "status": "pending",
+        "ordered_date": "2026-10-12",
+        "expected_result_date": "2026-10-18",
+        "lab": "Metropolis Healthcare"
+      }
+    ],
+    "P-ARJUN-03": [
+      {
+        "order_id": "TEST-ARJUN-001",
+        "test_type": "Lipid Profile (Cholesterol panel)",
+        "status": "result_available",
+        "ordered_date": "2026-10-01",
+        "result_date": "2026-10-05",
+        "result": "Total cholesterol 215 mg/dL (borderline). LDL 138 mg/dL (borderline high).",
+        "lab": "SRL Diagnostics",
+        "notes": "Diet modification started. Recheck in 3 months."
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+.env
+*.wav
+__pycache__/
+*.pyc
+minilm_stt_redflag_final/
+disha_laya_router_v2/

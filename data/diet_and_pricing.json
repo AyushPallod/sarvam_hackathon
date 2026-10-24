@@ -1,0 +1,54 @@
+{
+  "subscription_plans": {
+    "DISHA_CARE_MONTHLY": {
+      "plan_name": "Disha Care Monthly Membership",
+      "price_inr": 299,
+      "billing_cycle": "Monthly (INR 299 / month)",
+      "features": [
+        "Proactive weekly follow-up voice calls with Disha AI coach",
+        "Personalized diet, sleep, and lifestyle tracking in Hinglish",
+        "Unlimited in-app chat assistance"
+      ]
+    }
+  },
+  "diet_charts": {
+    "DC-REEMA-2026-W3": {
+      "week_number": 3,
+      "patient_id": "P-REEMA-01",
+      "current_focus": "PCOS hormone balancing & night shift energy sustainment",
+      "days": {
+        "wednesday": {
+          "wake_up_drink": "Warm jeera-ajwain water (1 glass) at 3:30 PM (post-sleep)",
+          "breakfast": "2 moong dal chillas with mint chutney and 1 cup herbal tea",
+          "lunch": "1 katori brown rice, 1 bowl yellow dal tadka, cucumber-tomato salad with flaxseeds",
+          "evening_snack": "1 handful roasted chana + tender coconut water",
+          "dinner": "2 oats-ragi rotis, 1 katori palak paneer (low oil), and warm clear vegetable soup",
+          "night_shift_fuel": "Handful of soaked almonds and walnuts with warm turmeric water around 2:00 AM"
+        },
+        "today": {
+          "wake_up_drink": "Warm jeera-ajwain water (1 glass) at 3:30 PM (post-sleep)",
+          "breakfast": "2 moong dal chillas with mint chutney and 1 cup herbal tea",
+          "lunch": "1 katori brown rice, 1 bowl yellow dal tadka, cucumber-tomato salad with flaxseeds",
+          "evening_snack": "1 handful roasted chana + tender coconut water",
+          "dinner": "2 oats-ragi rotis, 1 katori palak paneer (low oil), and warm clear vegetable soup",
+          "night_shift_fuel": "Handful of soaked almonds and walnuts with warm turmeric water around 2:00 AM"
+        }
+      }
+    },
+    "DC-SUNITA-2026-W1": {
+      "week_number": 1,
+      "patient_id": "P-SUNITA-02",
+      "current_focus": "Diabetic sugar control & insulin sensitivity",
+      "days": {
+        "today": {
+          "wake_up_drink": "Methi seed soaked water (1 glass)",
+          "breakfast": "Besan vegetable chilla with curd",
+          "lunch": "2 multigrain rotis, 1 big bowl methi sabzi, green salad with lemon",
+          "evening_snack": "Roasted makhana",
+          "dinner": "1 bowl quinoa khichdi with mixed vegetables and sautéed paneer",
+          "night_snack": "Chamomile tea"
+        }
+      }
+    }
+  }
+}

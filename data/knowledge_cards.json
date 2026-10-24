@@ -1,0 +1,258 @@
+[
+  {
+    "id": "KC-001",
+    "version": 3,
+    "status": "live",
+    "category": "proactive-offer",
+    "topic_tags": [
+      "menstrual-health",
+      "bloating",
+      "digestive",
+      "luteal-phase"
+    ],
+    "trigger_description": "User reports bloating, stomach heaviness, gas, or period-related stomach discomfort",
+    "content": "Proactively recommend jeera (cumin) or saunf (fennel) water as safe immediate remedy. Boil 1 tsp jeera or saunf in 2 cups water for 5 minutes, strain, sip lukewarm. Also advise light 5-minute walk after meals and staying hydrated. If accompanied by severe sharp pain, advise medical evaluation. Do NOT just say 'yeh normal hai' — give the actionable remedy immediately.",
+    "author": "Dr. Ananya Sharma (CMO)",
+    "approved_at": "2026-10-10",
+    "supersedes": "KC-001-v2"
+  },
+  {
+    "id": "KC-002",
+    "version": 2,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "nutrition",
+      "mango",
+      "fruits",
+      "weight-loss",
+      "seasonal"
+    ],
+    "trigger_description": "User asks about mango, aam, sweet fruits during weight loss, or whether mangoes are allowed",
+    "content": "Clinical stance: Do NOT ban mangoes outright. For users without diabetes/high HbA1c: allow 1 slice or half a small mango during daytime/active hours, paired with a few soaked almonds or chia seeds to blunt the insulin spike. Never post-dinner. EXCEPTION: If patient has uncontrolled diabetes (HbA1c > 8.0), switch to override: 'Jab tak blood sugar control mein nahi aata, aam se thodi dur raho. Green apple, papaya, ya guava try karo — equally satisfying with lower glycemic impact.' This override must be applied if the patient profile shows hba1c > 8.0.",
+    "author": "Pooja Verma (Lead Dietitian)",
+    "approved_at": "2026-10-12",
+    "supersedes": null
+  },
+  {
+    "id": "KC-003",
+    "version": 1,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "fitness",
+      "gym",
+      "workout-transition",
+      "exercise"
+    ],
+    "trigger_description": "User mentions joining gym, starting gym, going to gym, or doing gym workouts",
+    "content": "If patient's PEP (prescribed fitness routine) allows gym: enthusiastically validate their initiative. Say something like 'Yeh toh bahut achi baat hai!' Never discourage gym or rigidly insist on home workouts when PEP permits gym. Guide them to start with warmup + light resistance. Ask which equipment they have access to so the coach can tailor the routine. If PEP explicitly restricts gym due to acute injury, explain the temporary pause warmly and give a timeline.",
+    "author": "Karan Malhotra (Head of Clinical Fitness)",
+    "approved_at": "2026-10-05",
+    "supersedes": null
+  },
+  {
+    "id": "KC-004",
+    "version": 1,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "sleep",
+      "night-shift",
+      "caffeine",
+      "circadian"
+    ],
+    "trigger_description": "User asks about night shift schedule, sleep timing, caffeine, or morning sleep after night duty",
+    "content": "Night shift protocol: Maintain fixed sleep window with blackout curtains and earplugs. Zero caffeine 6 hours before planned bedtime. Light protein snack (soaked almonds, handful of makhana) before daytime sleep to prevent hunger-waking. Reinforce the importance of fixed sleep block — shifting it even by 1-2 hours causes significant circadian disruption. Validate how hard this is: 'Main jaanti hoon night shift mein sona bahut mushkil hota hai — yeh ek adat banane ka kaam hai.'",
+    "author": "Dr. Ananya Sharma",
+    "approved_at": "2026-09-28",
+    "supersedes": null
+  },
+  {
+    "id": "KC-005",
+    "version": 2,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "menstrual-pain",
+      "period-cramps",
+      "dysmenorrhea"
+    ],
+    "trigger_description": "User reports period pain, menstrual cramps, severe pain during periods, or painful menstruation",
+    "content": "For menstrual pain: validate the experience first ('Yeh sachmuch bahut takleef dene wala hota hai'). Recommend: warm compress on lower abdomen, warm ginger-jaggery (adi-gur) tea, light movement like gentle yoga stretches or a slow walk (counterintuitively helpful). Avoid cold foods and drinks during menstruation. If pain is 8-9/10 severity, happening for more than 2 days, or accompanied by fever — escalate to medical consultation, this needs gynecologist evaluation not just home remedies.",
+    "author": "Dr. Ananya Sharma",
+    "approved_at": "2026-10-08",
+    "supersedes": "KC-005-v1"
+  },
+  {
+    "id": "KC-006",
+    "version": 1,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "protein",
+      "post-workout",
+      "supplements",
+      "muscle"
+    ],
+    "trigger_description": "User asks about protein intake, which protein to take after gym, whey protein, post workout nutrition",
+    "content": "Post-workout nutrition recommendation: Within 30-45 minutes of workout, take 20-30g protein. Food options: 3-4 egg whites, 150g paneer, 1 cup Greek yogurt, or 1 scoop whey if the patient uses supplements. Always pair with fast-digesting carbs (banana, white rice) immediately post-workout to replenish glycogen. For non-supplement users: eggs and paneer are the most effective whole-food options. Avoid fatty foods immediately post-workout as they slow absorption. Hydration: minimum 500ml water in the first 30 minutes post-workout.",
+    "author": "Karan Malhotra",
+    "approved_at": "2026-10-14",
+    "supersedes": null
+  },
+  {
+    "id": "KC-007",
+    "version": 1,
+    "status": "live",
+    "category": "proactive-offer",
+    "topic_tags": [
+      "diabetes",
+      "blood-sugar",
+      "glycemic-control",
+      "hba1c"
+    ],
+    "trigger_description": "User with diabetes mentions eating sweets, high glycemic food, skipping meals, or blood sugar spikes",
+    "content": "For diabetic patients, any deviation from low-GI protocol must be gently but clearly addressed. The core message: it's not about one meal — it's the pattern. 'Ek samay ke liye yeh theek hai, lekin agar hum isko routine banate hain toh blood sugar control karna mushkil ho jaata hai.' Always pair advice with an immediate alternative — e.g., 'Meetha mann kar raha hai? Ek chota aamla (Indian gooseberry) try karo — naturally sweet, fiber se bhara, aur blood sugar mein help karta hai.'",
+    "author": "Pooja Verma",
+    "approved_at": "2026-10-13",
+    "supersedes": null
+  },
+  {
+    "id": "KC-008",
+    "version": 1,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "weight-loss",
+      "plateau",
+      "motivation",
+      "progress"
+    ],
+    "trigger_description": "User says weight is stuck, not losing weight, no progress, feeling demotivated about weight loss",
+    "content": "Weight loss plateaus are biologically normal and expected — explain this with warmth, not dismissal. 'Yeh plateau har kisi ke saath hota hai — iska matlab yeh nahi ki aap kuch galat kar rahe ho.' Practical responses to plateaus: (1) Review portion sizes — often plate size creep happens silently; (2) Add 5-10 minutes extra walking; (3) Check sleep quality — cortisol from poor sleep directly blocks fat loss; (4) Take measurements instead of scale — muscle is denser than fat. Celebrate non-scale victories. If plateau exceeds 3 weeks with strict adherence, flag for coach review.",
+    "author": "Pooja Verma",
+    "approved_at": "2026-10-11",
+    "supersedes": null
+  },
+  {
+    "id": "KC-009",
+    "version": 1,
+    "status": "shadow",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "back-pain",
+      "lower-back",
+      "ergonomics",
+      "posture"
+    ],
+    "trigger_description": "User complains of back pain, lower back pain, kamar dard, sitting pain, or posture issues",
+    "content": "For lower back pain (especially in sedentary workers or people doing physical work): (1) Cat-cow stretch and child's pose — safe and immediately helpful; (2) Do NOT advise complete rest — gentle movement is better than bed rest for most lower back pain; (3) Posture: if working from desk, every 45 minutes stand and walk for 2-3 minutes; (4) Strengthen core gradually — bird-dog exercise is safe starting point; (5) If pain radiates down the leg, causes numbness in leg, or is after an injury — refer to physiotherapist or orthopedic; do NOT give exercise advice in that case.",
+    "author": "Karan Malhotra",
+    "approved_at": "2026-10-07",
+    "supersedes": null,
+    "shadow_firings_count": 1
+  },
+  {
+    "id": "KC-010",
+    "version": 1,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "cholesterol",
+      "heart-health",
+      "lipids",
+      "diet"
+    ],
+    "trigger_description": "User mentions high cholesterol, cholesterol test results, LDL, or heart-healthy diet",
+    "content": "For borderline/high cholesterol: (1) Remove: deep fried foods, ghee in excess, processed meats, full-fat dairy (2) Add: oats (beta-glucan fiber), flaxseeds (sprinkle on food), garlic (1-2 raw cloves/day), walnuts (5 halves/day), and more soluble fiber (isabgol/psyllium in water daily); (3) Exercise is medication for cholesterol — 150 minutes/week of moderate activity directly reduces LDL; (4) Recheck lipid profile in 3 months after dietary changes. Never recommend stopping any doctor-prescribed statin or medication — that's out of scope for Disha.",
+    "author": "Dr. Ananya Sharma",
+    "approved_at": "2026-10-06",
+    "supersedes": null
+  },
+  {
+    "id": "KC-011",
+    "version": 1,
+    "status": "live",
+    "category": "proactive-offer",
+    "topic_tags": [
+      "stress",
+      "anxiety",
+      "mental-health",
+      "cortisol"
+    ],
+    "trigger_description": "User mentions stress, anxiety, work pressure, feeling overwhelmed, burnout, or mental fatigue",
+    "content": "Acknowledge the stress first before pivoting to solutions — never minimize it. 'Main samajhti hoon — itna kuch hote hue focus karna bahut mushkil lagta hai.' Physical-mental link: high stress = high cortisol = belly fat retention + poor sleep + cravings. Immediate practical tools: 4-7-8 breathing (inhale 4 counts, hold 7, exhale 8 — 3 cycles); 10-minute walk outdoors; journaling one sentence about what's bothering. For clinical anxiety levels, refer to mental health professional — do NOT try to manage clinical anxiety with lifestyle coaching alone.",
+    "author": "Dr. Ananya Sharma",
+    "approved_at": "2026-10-09",
+    "supersedes": null
+  },
+  {
+    "id": "KC-012",
+    "version": 1,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "hydration",
+      "water-intake",
+      "kidney-health"
+    ],
+    "trigger_description": "User asks about water intake, how much water to drink, feels dehydrated, or asks about kidney health",
+    "content": "Hydration guidelines: Minimum 2.5-3 litres/day for active individuals; 3+ litres on gym days or summer. Better metric: urine should be pale yellow — dark yellow = dehydrated. Best times: 1 glass on waking (before tea/coffee), 1 glass 30 min before each meal (aids digestion and portion control), 500ml post-workout. Common Hinglish confusion: 'chai toh paani hi hai' — no, caffeine is mildly diuretic and doesn't count toward hydration. Coconut water counts. Nimbu pani (without too much sugar) counts.",
+    "author": "Pooja Verma",
+    "approved_at": "2026-10-15",
+    "supersedes": null
+  },
+  {
+    "id": "KC-013",
+    "version": 1,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "pcos",
+      "chia-seeds",
+      "breakfast",
+      "hormonal-balance"
+    ],
+    "trigger_description": "User asks about chia seeds or morning breakfast drink for PCOS hormone balance",
+    "content": "PCOS morning routine: Recommend soaking 1 tbsp chia seeds overnight in water. Drink with a dash of lemon juice in morning. Rich in omega-3 and soluble fiber, helps blunt insulin spikes and balances androgens. Never substitute for prescribed metformin.",
+    "author": "Dr. Sneha Roy (Senior Gynecologist)",
+    "approved_at": "2026-10-16",
+    "supersedes": null,
+    "shadow_firings_count": 1
+  },
+  {
+    "id": "KC-014",
+    "version": 1,
+    "status": "shadow",
+    "category": "proactive-offer",
+    "topic_tags": [
+      "bloating",
+      "chia-seeds"
+    ],
+    "trigger_description": "User reports bloating, stomach heaviness, gas",
+    "content": "Proactively recommend chia seeds and sleep",
+    "author": "Dr. Ananya Sharma (CMO)",
+    "approved_at": "2026-10-17",
+    "supersedes": null,
+    "shadow_firings_count": 2
+  },
+  {
+    "id": "KC-015",
+    "version": 1,
+    "status": "live",
+    "category": "reactive-answer",
+    "topic_tags": [
+      "pcos",
+      "chia-seeds",
+      "breakfast",
+      "hormonal-balance"
+    ],
+    "trigger_description": "User asks about chia seeds or morning breakfast drink for PCOS hormone balance",
+    "content": "PCOS morning routine: Recommend soaking 1 tbsp chia seeds overnight in water. Drink with a dash of lemon juice in morning. Rich in omega-3 and soluble fiber, helps blunt insulin spikes and balances androgens. Never substitute for prescribed metformin.",
+    "author": "Dr. Sneha Roy (Senior Gynecologist)",
+    "approved_at": "2026-10-17",
+    "supersedes": null,
+    "shadow_firings_count": 1
+  }
+]

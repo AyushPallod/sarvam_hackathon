@@ -1,0 +1,105 @@
+{
+  "rules": [
+    {
+      "rule_id": "CLIN-RAG-001",
+      "category": "symptom_relief",
+      "author": "Dr. Ananya Sharma (Chief Medical Officer)",
+      "updated_at": "2026-10-10",
+      "trigger_keywords": [
+        "bloating",
+        "bloat",
+        "pet phoola",
+        "pet me gas",
+        "heavy stomach",
+        "period bloating",
+        "pet bhaari",
+        "pait phoolna",
+        "gas banna"
+      ],
+      "clinical_stance": "Warmth alone is insufficient. Proactively recommend a safe, immediate kitchen remedy: warm jeera (cumin) or saunf (fennel) water boiled for 5 minutes and sipped lukewarm. Advise light walking post-meals and staying hydrated. If accompanied by severe sharp pain, advise medical check.",
+      "prescribed_action": "Recommend jeera or saunf water immediately and explain how to prepare it in Hinglish.",
+      "contraindications": []
+    },
+    {
+      "rule_id": "CLIN-RAG-002",
+      "category": "nutrition_stance",
+      "author": "Pooja Verma (Lead Clinical Dietitian)",
+      "updated_at": "2026-10-12",
+      "trigger_keywords": [
+        "mango",
+        "aam",
+        "aam kha sakti",
+        "mango for weight loss",
+        "sweet fruit",
+        "kya aam mana hai",
+        "aam allowed hai"
+      ],
+      "clinical_stance": "Seasonal moderation: Do NOT ban mangoes outright for weight loss. Allow 1 slice or half a small mango during daytime/active hours, preferably paired with a few soaked almonds or chia seeds to prevent an insulin spike. Never consume mango post-dinner.",
+      "prescribed_action": "Advocate seasonal moderation (half a small mango / 1 slice during daytime with protein/fiber). Do not ban it.",
+      "contraindications": [
+        {
+          "condition": "uncontrolled_diabetes",
+          "hba1c_threshold": 8.0,
+          "override_stance": "Due to high HbA1c/uncontrolled blood sugar, avoid sweet mangoes until blood sugar stabilizes. Opt for low-glycemic fruits like green apple, papaya, or guava."
+        }
+      ]
+    },
+    {
+      "rule_id": "CLIN-RAG-003",
+      "category": "fitness_transition",
+      "author": "Karan Malhotra (Head of Clinical Fitness)",
+      "updated_at": "2026-10-05",
+      "trigger_keywords": [
+        "gym",
+        "gym join kiya",
+        "gym me workout",
+        "gym membership",
+        "gym ja sakti",
+        "weights uthana"
+      ],
+      "clinical_stance": "If patient's profile allows gym workouts, enthusiastically validate their initiative. Never discourage gym workouts or rigidly force home workouts when the PEP permits gym. Guide them to begin with warmups and light resistance, and request them to share which equipment they have access to so the coach can tailor their routine.",
+      "prescribed_action": "Enthusiastically encourage gym attendance if permitted in PEP, and offer to adapt their routine for gym machines.",
+      "contraindications": [
+        {
+          "condition": "severe_acute_injury",
+          "override_stance": "Temporarily pause gym workouts until physician clearance."
+        }
+      ]
+    },
+    {
+      "rule_id": "CLIN-RAG-004",
+      "category": "night_shift_hygiene",
+      "author": "Dr. Ananya Sharma",
+      "updated_at": "2026-09-28",
+      "trigger_keywords": [
+        "night shift",
+        "sleep schedule",
+        "raat ko neend",
+        "subah sona",
+        "chai coffee night shift",
+        "caffeine"
+      ],
+      "clinical_stance": "Maintain fixed sleep window (blackout curtains + earplugs). Zero caffeine 6 hours before planned bedtime. Have light protein snack before daytime sleep to prevent waking from hunger.",
+      "prescribed_action": "Reinforce fixed daytime sleep block and strict 6-hour caffeine cutoff.",
+      "contraindications": []
+    },
+    {
+      "rule_id": "CLIN-RAG-005",
+      "category": "system_identity_policy",
+      "author": "Clinical Operations & Product Safety",
+      "updated_at": "2026-10-01",
+      "trigger_keywords": [
+        "insaan ho",
+        "robot ho",
+        "are you human",
+        "ai ho",
+        "real person ho",
+        "sach batana insaan",
+        "aap kon ho"
+      ],
+      "clinical_stance": "CRITICAL COMPLIANCE: Disha must always explicitly identify as an AI health coach created to support their health journey. She must NEVER play along or claim to be a human, even playfully. Explain with warmth: 'Main Disha hoon, aapki dedicated AI health coach.'",
+      "prescribed_action": "Directly and warmly confirm AI identity. Never pretend to be human.",
+      "contraindications": []
+    }
+  ]
+}
